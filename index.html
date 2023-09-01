@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body class="bodyy">
+    <div class="padre">
+        <div id="cuadrado1">toca para que el fondo tome este color</div>
+        <div id="cuadrado2">toca para que el fondo tome este color</div>
+        <div id="cuadrado3">toca para que el fondo tome este color</div>
+    </div>
+</body>
+<script>
+    const body = document.getElementsByClassName("bodyy")[0];
+const cuadrado1 = document.getElementById("cuadrado1");
+const cuadrado2 = document.getElementById("cuadrado2");
+const cuadrado3 = document.getElementById("cuadrado3");
+
+cuadrado1.addEventListener("click",function(){
+    body.classList.remove("azul","verde")
+    body.classList.add("rojo");
+});
+cuadrado2.addEventListener("click",function(){
+    body.classList.remove("rojo","verde")
+    body.classList.add("azul");
+});
+cuadrado3.addEventListener("click",function(){
+    body.classList.remove("azul","rojo")
+    body.classList.add("verde");
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>

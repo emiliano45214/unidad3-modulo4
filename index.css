@@ -1,0 +1,33 @@
+.boton{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+.bodyy.azul{
+    background-color: blue;
+}
+.bodyy.rojo{
+    background-color: red;
+}
+.bodyy.verde{
+    background-color: green;
+}
+.padre{
+    display: flex;
+    justify-content: space-between;
+}
+.padre div{
+    width: 100px;
+    height: 100px;
+}
+#cuadrado1{
+    background-color: rgb(245, 0, 0);
+}
+#cuadrado2{
+    background-color: rgb(28, 4, 250);
+}
+#cuadrado3{
+    background-color: green;
+}
